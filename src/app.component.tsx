@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { Unity, useUnityContext } from "react-unity-webgl";
 import styles from "./app.module.css";
+import urlAdress from "../package.json"
 
 const App = () => {
   const {
@@ -14,10 +15,10 @@ const App = () => {
     takeScreenshot,
     unload,
   } = useUnityContext({
-    loaderUrl: "/unitybuild/crateclicker.loader.js",
-    dataUrl: "/unitybuild/crateclicker.data",
-    frameworkUrl: "/unitybuild/crateclicker.framework.js",
-    codeUrl: "/unitybuild/crateclicker.wasm",
+    loaderUrl: `${urlAdress.homepage}unitybuild/crateclicker.loader.js`,
+    dataUrl: `${urlAdress.homepage}unitybuild/crateclicker.data`,
+    frameworkUrl: `${urlAdress.homepage}unitybuild/crateclicker.framework.js`,
+    codeUrl: `${urlAdress.homepage}unitybuild/crateclicker.wasm`,
     webglContextAttributes: {
       preserveDrawingBuffer: true,
     },

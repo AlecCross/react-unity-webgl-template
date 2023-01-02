@@ -2,6 +2,7 @@
   "name": "react-unity-webgl-template",
   "version": "3.0.0",
   "description": "An out-of-the-box sandbox environment for the React Unity WebGL package. This environment contains a Create-React-App including both the source and build of a Unity WebGL project, allowing to test and debug all of its features.",
+  "homepage": "https://aleccross.github.io/react-unity-webgl-template/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -21,7 +22,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -40,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
