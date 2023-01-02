@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-unity-webgl-template/static/css/main.ccc6d216.css",
+    "main.js": "/react-unity-webgl-template/static/js/main.6483c4b3.js",
+    "index.html": "/react-unity-webgl-template/index.html",
+    "main.ccc6d216.css.map": "/react-unity-webgl-template/static/css/main.ccc6d216.css.map",
+    "main.6483c4b3.js.map": "/react-unity-webgl-template/static/js/main.6483c4b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ccc6d216.css",
+    "static/js/main.6483c4b3.js"
+  ]
+}
